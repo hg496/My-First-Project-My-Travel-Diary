@@ -1,0 +1,11 @@
+touch .gitignore
+git confige --global user.name Honey
+git confige --global user.email honeygarg1238@gmail.com
+git init
+git add .(stageing area)
+git commit -m "Initial Commit" #add repository link
+git status #just to see your working tree is clean
+git 
+tail <path to id_rsa.pub> #add this to your github account
+git remote add origin <ssh url.git>
+git push origin master
