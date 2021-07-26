@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #project-header {
+        padding: 10px;
+        text-align: center;
+        background: linear-gradient(
+          9deg,
+          rgba(131, 58, 180, 1) 0%,
+          rgba(253, 29, 29, 1) 59%,
+          rgba(253, 29, 29, 1) 100%
+        );
+      }
+      .header-anchor {
+        font-size: 26px;
+        padding: 16px;
+      }
+      #form {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background-color: white;
+      }
+      #container {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .input-box {
+        font-size: 18px;
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid grey;
+        padding-bottom: 16px;
+        margin-bottom: 32px;
+      }
+      #submit {
+        background-color: #0056ff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 18px;
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: lightgreen">
+    <div id="project-header">
+      <a class="header-anchor" href="/My-Travel-Diary-Project/project.html"
+        >Trips</a
+      >
+      <a class="header-anchor" href="about.html">About</a>
+      <a class="header-anchor" href="contact.html">Contact</a>
+    </div>
+    <h1 style="text-align: center">Wanna come on my next trip? Contact Me.</h1>
+    <div>
+      <form id="form" action="" method="GET">
+        <div id="container">
+          <div>
+            <input
+              class="input-box"
+              type="text"
+              name="fullname"
+              placeholder="Full Name"
+            />
+          </div>
+          <div>
+            <input
+              class="input-box"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+          <div>
+            <input
+              class="input-box"
+              type="number"
+              name="contact number"
+              placeholder="Contact Number"
+            />
+          </div>
+          <div>
+            <input id="submit" type="submit" name="Register" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
