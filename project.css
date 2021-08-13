@@ -11,6 +11,8 @@ body {
     rgba(253, 29, 29, 1) 59%,
     rgba(253, 29, 29, 1) 100%
   );
+  position: sticky;
+  top: 0;
 }
 .header-anchor {
   font-size: 26px;
